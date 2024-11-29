@@ -3,6 +3,7 @@
 If you simply want to analyze your data using this program, it is recommended to use the more portable full version, see the AllanTools_Matlab in the <allan_easy_to_use> folder. If you want to embed the code into your program, you can use the individual functions.
 
 Using example of Allan_ADEV:
+``` matlab
 [Out_tau, OADEV_Output, Out_ErrBar, alpha_memory] = Allan_OADEV(LiveData, tau0, Phase_or_Fre, tau,  Conf_interval, Noise_type)
 Input:
     LiveData : the data using for calculate the allan deviation, should be 1-D.
@@ -25,3 +26,5 @@ Output:
         Column 1: Min sigma
         Column 2: max sigma
 Reference: Riley, W. and Howe, D. (2008), Handbook of Frequency Stability Analysis, Special Publication (NIST SP)...
+![](https://github.com/liaoty17/Allan-deviation-Matlab/blob/main/test_data/ADEV.png)
+```
