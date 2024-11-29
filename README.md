@@ -1,5 +1,11 @@
 # Allan-deviation-Matlab
 **Allan deviation(Standard, Overlapping, Modified, Time) and Hadamard deviation calculate tools in Matlab.**
+## Setup and Requirement
+1. You must to install the Statics and Machine learning toolbox in your matlab. Otherwise, <chi2inv> cannot be used to generate chi-square distribution.
+2. Download the full folder and unzip.
+3. enjoy!
+
+## How to use
 If you simply want to analyze your data using this program, it is recommended to use the more portable full version, see the AllanTools_Matlab in the <allan_easy_to_use> folder. If you want to embed the code into your program, you can use the individual functions.
 
 Using example of Allan_ADEV:
@@ -26,5 +32,7 @@ Output:
         Column 1: Min sigma
         Column 2: max sigma
 Reference: Riley, W. and Howe, D. (2008), Handbook of Frequency Stability Analysis, Special Publication (NIST SP)...
-![](https://github.com/liaoty17/Allan-deviation-Matlab/blob/main/test_data/ADEV.png)
 ```
+you can just input LiveData and tau0. If you do so, the program uses the default parameters for the calculation.
+
+![](https://github.com/liaoty17/Allan-deviation-Matlab/blob/main/test_data/ADEV.png)
